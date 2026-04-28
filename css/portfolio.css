@@ -1,0 +1,34 @@
+.portfolio-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.portfolio-item {
+  background-color: #fff;
+  /* border: solid #E7E9FC;
+  border-width: 0px 1px 1px 1px; */
+
+
+}
+
+.portfolio-image {
+  display: block;
+  width: 100%;
+}
+
+.portfolio-description {
+  padding: 32px 16px;
+  border: solid #E7E9FC;
+  border-width: 0px 1px 1px 1px;
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  margin-bottom: 8px;
+
+}
